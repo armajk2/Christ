@@ -169,7 +169,7 @@ body{
 }
 
 .imgd{
-    border-radius:50%;
+    border-radius:80%;
     position: relative;
     background-color: rgb(255, 0, 0);
     width: 100%;
