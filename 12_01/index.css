@@ -1,0 +1,389 @@
+body{
+    margin: 0;
+    padding: 2%;
+    background-color: rgb(70, 163, 61);
+}
+
+.wel{
+    position: absolute;
+    font-size: 30vh;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    z-index: 1;
+    animation: fadein 5s forwards;
+}
+
+
+
+.head :hover{
+    background-color: red;
+    border-radius: 4px;
+}
+
+@keyframes fadein{
+    from{
+        opacity: 1;
+        left: 10%;
+        font-size: 30vh;
+
+    }
+    to{
+        opacity: 1;
+        left:120%;
+        font-size: 5vh;
+
+    }
+    
+
+}
+
+.box1 {
+    position: relative;
+    background-color: rgb(255, 70, 70);
+    width: 40%;
+    height: 2vh;
+    
+    align-items: center;
+    text-align: center;
+    margin-bottom: 1vh;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.box2 {
+    position: relative;
+    background-color: rgb(255, 70, 70);
+    width: 100%;
+    height: 0.5vh;
+    align-items: center;
+    text-align: center;
+    width: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.head { 
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    font-size: 8vh;
+    text-align: center;
+    height: 10svh;
+    color: azure;
+    width: 70%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.box3 {
+    position: relative;
+    background-color: rgb(255, 70, 70);
+    width: 100%;
+    height: 0.5vh;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.box4 {
+    position: relative;
+    background-color: rgb(255, 70, 70);
+    width: 100%;
+    height: 2vh;
+    align-items: center;
+    text-align: center;
+    margin-top: 1vh;
+}
+
+.second{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: left;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.img {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* background-color: rgb(255, 255, 255); */
+    width: 400vh;
+    height: 35vh;
+    margin-right: 2%;
+    padding: 1% 1% 1% 0%;
+    /* border: solid 1vh black; */
+    justify-content: space-evenly;
+    align-items: left;
+    
+}
+
+.trans{
+
+    position: relative;
+    width: 35vh;
+    height: 35vh;
+    margin-left: 3%;
+}
+
+
+.trans:hover {
+    transition: transform 1s;
+    transform-origin: 80% 50%;
+    transform: scale(2) rotate(180deg);
+    z-index: 9999;
+}
+
+.tran{
+    position: relative;
+    width: 35vh;
+    margin-left: 3%;
+    height: 35vh;
+}
+
+.tran:hover {
+    transition:  1s ease-in;
+    width: 80vh;
+    height: 50vh;
+    z-index: 9999;
+}
+
+.tra{
+    position: relative;
+    width: 35vh;
+    margin-left: 1%;
+    height: 35vh;
+    top: 0%;
+}
+
+.tra:hover {
+    border-radius: 50%;
+    opacity: 50%;
+    transition: 1s ;
+    top: 40%;
+}
+
+.ex{
+    text-align: center;
+}
+
+.tex{
+    font-size: 16px;
+    color: white;
+}
+
+
+.imgd{
+    position: relative;
+    background-color: rgb(255, 0, 0);
+    width: 100%;
+    right: 3vh;
+    text-align: left;
+    padding: 2%;
+    height: 35vh;
+}
+
+.third{
+    margin-top: 1%;
+    height: 8vh;
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+}
+
+.g{
+    padding: 2%;
+    text-align: center;
+    border: solid 1vh rgb(255, 70, 70); 
+    display: flex;
+    justify-content: space-around;
+}
+.g2{
+    padding: 2%;
+    text-align: center;
+    border: solid 1vh rgb(255, 70, 70); 
+    display: flex;
+    justify-content: space-evenly;
+}
+.g3{
+    padding: 2%;
+    text-align: center;
+    border: solid 1vh rgb(255, 70, 70); 
+    display: flex;
+    justify-content: space-around;
+}
+
+.list{
+    list-style-type: none;
+    text-decoration: wavy;
+    color: white;
+}
+
+.list li {
+    line-height: 10vh;
+    font-size: 5vh;
+    color: white;
+
+}
+
+a:link{
+    color: rgb(255, 255, 255);
+}
+
+a:visited {
+    color : #ffffff;
+}
+
+
+a:hover {
+    color : white;
+
+}
+
+
+
+
+.socks{
+    position: relative;
+    margin: 2%;
+    width: 10%;
+    height: 60%;
+    animation: rotate 5s linear infinite ;
+}
+
+@keyframes rotate{
+    from {
+        transform: rotate(0deg)
+    }
+    to{
+        transform: rotate(360deg)
+    }
+    }
+
+.sock{
+    position: relative;
+    margin: 2%;
+    width: 10%;
+    height: 60%;
+        animation: rotate 3s linear infinite ;
+    }
+
+.sockss{
+    position: relative;
+    margin: 2%;
+    width: 10%;
+    height: 60%;
+    animation: rotate 4s linear infinite ;
+    
+    }
+
+.socks:hover{
+    animation-play-state: paused;
+}
+
+.sock:hover{
+    animation-play-state: paused;
+}
+
+.sockss:hover{
+    animation-play-state: paused;
+}
+
+.rein{
+    position: relative; 
+    width: 20%;
+    height: 20%;
+    left: 10%;
+    top: 70%;
+    transform: translate(-50%,-50%);
+}
+.rein1{
+    position: relative; 
+    width: 20%;
+    height: 20%;
+    left: 10%;
+    top: 70%;
+    transform: translate(-50%,-50%) scaleX(-1);
+}
+
+.reind{
+    position: absolute; 
+    width: 10%;
+    height: 10%;
+    left: 8%;
+    top: 80%;
+    transform: translate(-50%,-50%) ; 
+}
+
+.reind2{
+    position: absolute; 
+    width: 10%;
+    height: 10%;
+    right: 0%;
+    top: 80%;
+    transform: translate(-50%,-50%) scaleX(-1);
+}
+
+.img img {
+    max-width: 100%;
+    min-width: 200px;
+    height: auto;
+}
+
+.imgd{
+    min-width: 200px;
+    height: auto;
+}
+
+@media screen and (max-width: 800px) {
+    .img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 70%;
+        max-width: 25%;
+        margin: 10% auto;
+        position: relative;
+    }
+
+    
+    .second {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .imgd{
+        position: relative;
+        background-color: black;
+        margin: 0;
+    }
+    .list{
+        text-align: center;
+        font-size: 3vw;
+    }
+
+
+    .first {
+        display: none;
+    }
+    
+    .tex {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .third{
+        display: none;
+    }
+
+    .box2{
+        display: none;
+    }
+
+}
+
